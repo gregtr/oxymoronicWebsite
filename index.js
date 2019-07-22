@@ -6,14 +6,15 @@ const url = 'https://newsapi.org/v2/top-headlines?' +
 
 const displayContent = function(contentArray = []) {
 
-    const bodyElement = document.getElementById("main")
+    const bodyElement = document.getElementById("content-wrapper")
     for (let i = 0; i < contentArray.length; i++) {
         // display content
-        const pElement = document.createElement('p');
+        const pElement = document.createElement('div');
+        pElement.setAttribute('class', 'news-card');
         const pNode = document.createTextNode(contentArray[i].title);
 
         pElement.appendChild(pNode);
-        bodyElement.appendChild(pElement);
+        bodyElement.appendChild(pElement); // span vs div 
     }
 }
 
@@ -39,3 +40,7 @@ fetch(req)
 
 
     //https://exploringjs.com/es6/ch_modules.html
+
+    /////
+
+    ////
