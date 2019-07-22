@@ -1,0 +1,22 @@
+{
+  "name": "js-app",
+  "version": "1.0.0",
+  "description": "None",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregtr/oxymoronicWebsite.git"
+  },
+  "keywords": [
+    "test-website"
+  ],
+  "author": "XD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregtr/oxymoronicWebsite/issues"
+  },
+  "homepage": "https://github.com/gregtr/oxymoronicWebsite#readme"
+}
