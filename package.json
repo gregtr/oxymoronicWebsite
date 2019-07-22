@@ -4,7 +4,8 @@
   "description": "None",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/gregtr/oxymoronicWebsite/issues"
   },
-  "homepage": "https://github.com/gregtr/oxymoronicWebsite#readme"
+  "homepage": "https://github.com/gregtr/oxymoronicWebsite#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
